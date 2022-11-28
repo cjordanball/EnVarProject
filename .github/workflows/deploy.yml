@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - source
       - dev
 jobs:
   test:
